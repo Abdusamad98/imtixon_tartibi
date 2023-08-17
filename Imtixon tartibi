@@ -1,58 +1,46 @@
-Flutter N8 guruhi uchun 3- oy imtixoni
+Najot Ta’lim, Flutter N8, 4- oy imtixoni.
+
+Bottom navigation bar tarkibida 4 ta task uchun ajratilgan screen lar mavjud. Har bir screenda bir dona task bajarilsin. Barcha screen logikalari to’liq Provider state management bilan yozilsin.
+
+1.	Task. https://restcountries.com/v3.1/all berilgan API dan mamlakatlar haqida ma’lumotlar keladi. Kelgan ma’lumotlarning barchasi uchun model klaslar yozilsin. Dio packagedan foydalanib ma’lumotlar ekranga chiqarilsin. Bunda quyidagilarga ahamiyat berilsin.
+      
+•	Requestni kutish vaqti ekranga loader chiqsin.
+•	Modell klaslari web saytda generate qilinmasin.
+•	Internet o’chirilganda yoki server error berganda xatolar userga dialog ko’rinishida chiqsin.
+•	Har bir mamlakat ma’lumotlari screen ning yarim height ga teng bo’lgan containerga joy bo’lsin. 
+•	Moslashuvchan Design bo’lsin.
+
+                                                                                  20 ball.
 
 
 
-Imtixon jami 5 ta screen dan iborat mini commercial app loyihasi bajarilishi talab qilinadi. Screen larning 3 tasi bottom navigation barda va ikkitasi kategoriyaga tegishli mahsulotlar listini va sevimli mahsulotlar listini chiqarish uchun chizilsin.
+Quyidagi taskda firebase auth shart emas!
+
+2.	Task.  FirebaseFirestore dan foydalanib users nomli table ochilsin. Ushbu table tarkibida: firstname, lastname, age, userId, fcm, createdDate, userRole maydonlari bo’lsin.
+Example: userId uchun documentId saqlansin, createdDate uchun saqlangan sana kiritilsin, userRole uchun admin, client, owner rolelaridan biri tanlansin. Fcm uchun cloud messaging token yozib saqlansin. Barcha userlar listi bitta screenda bo’lib ularni alohida screenda qo’shish va alohida screenda update qilish imkoni bo’lsin. Shuningdek userni o’chirish imkoni ham mavjud bo’lsin. Update va Add screen lariga maxsus update delete iconlarni bosish orqali o’tilsin. 
+Bunda quyidagilarga e’tiborli bo’ling:
+Input fieldlar duplicate bo’lmasin, widgetga chiqarilsin.
+Userni qo’shish va update qilish vaqt;arida loader chiqaring.
+Har bir o’zgarishdan so’ng ui automatic yangilansin.                                        20 ball.
 
 
-https://imtixon.free.mockoapp.net/categories berilgan API.
-Bottom navigation barning 1- tab 1- oynada kategoriyalr listi serverdan olib kelib chiziladi. Kategoriya tanlanganda boshqa screen ochiladi va unda tanlangan kategoriyaga tegishli mahsulotlar kategoriya id si bo’yicha sereverdan chaqiriladi.
-
-Mahsulotlar listida har bir mahsulotni ustida Savatga qo’shish buton ni mavjud u bosilganda. Mahsulot local bazaga saqlanishi kerak. Bunda quyidagi parameterlar saqlansin.
-
-
-Agar mahsulot lokal bazada mavjud bo’lsa count maydoni birga oshirilib so’ng update qilinsin. Mahsulot savatga qo’shilgach savatga qo’shilgani haqida foydalanuvchiga habar chiqarilsin (toast, sanck bar).
-
-2-tab 2- oyna barcha mahsulotlar listi API dan chaqiriladi. Mahsulotlar listida har bir mahsulotni ustida Savatga qo’shish buton ni mavjud u bosilganda. Mahsulot local bazaga saqlanishi kerak. Bunda quyidagi parameterlar saqlansin. Xuddi 1-tab Catgeory productlarni qanday saqlagan bo’lsa shunday.
-
-
-3- tab 3- oyna da esa Savatga (local bazaga ) qo’shilgan mahsulotlar listi chiqariladi.
-
-Har bir saqlangan mahsulot ma’lumotlri quyidagicha ko’rinishda chiqarilsin.
-
-  
-Umumuiy summa ham albatta ko’rsatilsin.
-
-Tozalash buttoni bosilganda savatdagi barcha mahsulotlar o’chirilib screen bo’sh bo’lib qolsin. Delete buttoni bosilganda har bir elementni local bazadagi id si bo’yicha o’chirilsin.
-
-4 - oyna. https://imtixon.free.mockoapp.net/categories/$id berilgan API dan quyidagi ko’rinishda ma’lum bir kategoriyaga tegishli mahsulotlar listi keladi.
+3.	Task.
+   
 
 
 
-5 – oyna. Hamma mahsulotlar oynasida Like button bosilganda local saqlangan sevimli mahsulotlar listiga o’tsin.  Mahsulotlar listidan turib like button bosiganda shu oynaga sevimli mahsulot qo’shilib boradi. Agar oldin sevimli qilib bo’lgan bo’lga sevimlilar ro’yxatidan olinsin.
+Berilgan screen bo’yicha tanlangan manzilni saqlovchi address saver sahifasi yasalsin. Bunda addressni saqlash knopkasi bosilganda bootom navigationda uning detailed infosi ham kiritilib saqlansin. Saqlangan addresslar listi list viewda chiqorilsin. Widgetlarga ajratib, tushunarli code yozing.                                                                                                   20 ball.
 
+4.	A) https://www.figma.com/file/M7CkM5t64ctYPc7GX5lmtF/eCommerce-Onboarding-Screens-(Community)?type=design&node-id=102-2&mode=design&t=neDEpQN99v0GWd2v-0 berilgan linkdadi 1- screen yasalsin. Bunda Custom painterdan foydalanilsin. 
 
-API 3. 
+B)   Custom Paint yordamida chizilsin va animations ishlatilsin.
+                                   20 ball.
 
-https://imtixon.free.mockoapp.net/products 
+G’ildiraklari aylanishi kk.
 
-
-Baholash:
-
-Vazifalar	Ball
-Kategoriyalar oynasi va uning UI-UX	15 ball
-Kategoriyalar mahsulotlari oynasi va uning UI-UX	20 ball
-Mahsulotlar oynasi va uning UI-UX	20 ball
-Lokal database logikasi Savatcha oynasi UI-UX	30 ball
-Sevimli mahsulotlar oynasi va uning UI-UX	15 ball
-
-
-
-
-
-
-
- 
- 
-
-
+Baxolash:
+1.	Dio task:                                   20 ball.
+2.	Firebase task :                           20 ball.
+3.	Map task :                                  20 ball.
+4.	Custom Paint and Animations:  20 ball.
+5.	Suxbat:                                       20 ball
