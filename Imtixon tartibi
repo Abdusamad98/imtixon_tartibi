@@ -1,46 +1,6 @@
-Najot Ta’lim, Flutter N8, 4- oy imtixoni.
+Najot Ta’lim, Flutter N8, 5- oy imtixoni.
 
-Bottom navigation bar tarkibida 4 ta task uchun ajratilgan screen lar mavjud. Har bir screenda bir dona task bajarilsin. Barcha screen logikalari to’liq Provider state management bilan yozilsin.
+Berilgan pdf file da jami 3 ta dona tasklar mavjud.
+Tasklar berilgan shart larga ko'ra bajarilsin.
+Ball: Task 1: 40 ball. Task 2: 20 ball. Task 3: 20 ball. Suxbat: 20 ball.
 
-1.	Task. https://restcountries.com/v3.1/all berilgan API dan mamlakatlar haqida ma’lumotlar keladi. Kelgan ma’lumotlarning barchasi uchun model klaslar yozilsin. Dio packagedan foydalanib ma’lumotlar ekranga chiqarilsin. Bunda quyidagilarga ahamiyat berilsin.
-      
-•	Requestni kutish vaqti ekranga loader chiqsin.
-•	Modell klaslari web saytda generate qilinmasin.
-•	Internet o’chirilganda yoki server error berganda xatolar userga dialog ko’rinishida chiqsin.
-•	Har bir mamlakat ma’lumotlari screen ning yarim height ga teng bo’lgan containerga joy bo’lsin. 
-•	Moslashuvchan Design bo’lsin.
-
-                                                                                  20 ball.
-
-
-
-Quyidagi taskda firebase auth shart emas!
-
-2.	Task.  FirebaseFirestore dan foydalanib users nomli table ochilsin. Ushbu table tarkibida: firstname, lastname, age, userId, fcm, createdDate, userRole maydonlari bo’lsin.
-Example: userId uchun documentId saqlansin, createdDate uchun saqlangan sana kiritilsin, userRole uchun admin, client, owner rolelaridan biri tanlansin. Fcm uchun cloud messaging token yozib saqlansin. Barcha userlar listi bitta screenda bo’lib ularni alohida screenda qo’shish va alohida screenda update qilish imkoni bo’lsin. Shuningdek userni o’chirish imkoni ham mavjud bo’lsin. Update va Add screen lariga maxsus update delete iconlarni bosish orqali o’tilsin. 
-Bunda quyidagilarga e’tiborli bo’ling:
-Input fieldlar duplicate bo’lmasin, widgetga chiqarilsin.
-Userni qo’shish va update qilish vaqt;arida loader chiqaring.
-Har bir o’zgarishdan so’ng ui automatic yangilansin.                                        20 ball.
-
-
-3.	Task.
-   
-
-
-
-Berilgan screen bo’yicha tanlangan manzilni saqlovchi address saver sahifasi yasalsin. Bunda addressni saqlash knopkasi bosilganda bootom navigationda uning detailed infosi ham kiritilib saqlansin. Saqlangan addresslar listi list viewda chiqorilsin. Widgetlarga ajratib, tushunarli code yozing.                                                                                                   20 ball.
-
-4.	A) https://www.figma.com/file/M7CkM5t64ctYPc7GX5lmtF/eCommerce-Onboarding-Screens-(Community)?type=design&node-id=102-2&mode=design&t=neDEpQN99v0GWd2v-0 berilgan linkdadi 1- screen yasalsin. Bunda Custom painterdan foydalanilsin. 
-
-B)   Custom Paint yordamida chizilsin va animations ishlatilsin.
-                                   20 ball.
-
-G’ildiraklari aylanishi kk.
-
-Baxolash:
-1.	Dio task:                                   20 ball.
-2.	Firebase task :                           20 ball.
-3.	Map task :                                  20 ball.
-4.	Custom Paint and Animations:  20 ball.
-5.	Suxbat:                                       20 ball
